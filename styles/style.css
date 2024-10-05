@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto";
+}
+.container{
+    padding: 0 15px;
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+}
+.header__nav{
+    padding: 20px 0;
+}
+.header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.silka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: black;
+}
+.header__nav-list{
+    display: flex;
+    gap: 15px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: black;
+}
+.header__nav-list a{
+    color: #3A3838;
+    transition: 300ms;
+}
+.header__nav-list a:hover{
+    color: #EF4423;
+}
+.illustration{
+    max-width: 1140px;
+    display: block;
+    margin: auto;
+    margin-bottom: 36px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.card1, .card2, .card3, .card4{
+    width: 350px;
+    height: 380px;
+}
+.cards h1{
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.cards p{
+    color: #EBEBEB;
+}
+.card1 h1{
+    padding: 8px 15px 0;
+}
+.card2 h1{
+    padding: 15px 15px 7px;
+}
+.card1{
+    background: #B71C1C;
+}
+.card2{
+    background: #6A1B9A;
+}
+.card3{
+    background: #303F9F;
+}
+.card4{
+    background: #00695C;
+}
+.card3 h1{
+    padding: 8px 15px;
+}
+.card4 h1{
+    padding: 15px 15px 6px;
+}
+.card1 p{
+    padding: 8px 15px;
+}
+.card2 p{
+    padding: 0px 15px 4px;
+}
+.card3 p{
+    padding: 0 15px;
+}
+.card4 p{
+    padding: 0 15px 5px;
+}
+.main__news{
+    background: #EBEBEB;
+    margin-bottom: 50px;
+}
+.part2 .container{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
+.part2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #3A3838;
+}
+.info h1{
+    padding: 20px 0 30px;
+}
+.info p{
+    color: #686868;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+}
+.footer{
+    background: #3A3838;
+}
+.footer .silka{
+    color: #FFFFFF;
+}
+footer .header__nav-list a{
+    color: #FFFFFF;
+}
+
